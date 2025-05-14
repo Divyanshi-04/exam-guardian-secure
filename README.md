@@ -1,73 +1,70 @@
-# Welcome to your Lovable project
 
-## Project info
+# Exam Guardian Secure
 
-**URL**: https://lovable.dev/projects/cb9b75c0-5cfa-4b85-bfde-87de11c35435
+A secure online examination platform designed to maintain academic integrity.
 
-## How can I edit this code?
+## Project Overview
 
-There are several ways of editing your application.
+Exam Guardian Secure is a comprehensive platform that helps educational institutions conduct secure online examinations by:
 
-**Use Lovable**
+- Preventing tab switching and browser navigation during exams
+- Providing fullscreen monitoring and security warnings
+- Supporting various question formats including multiple choice and essay questions
+- Offering separate interfaces for students and teachers
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/cb9b75c0-5cfa-4b85-bfde-87de11c35435) and start prompting.
+## Features
 
-Changes made via Lovable will be committed automatically to this repo.
+### For Students
+- Access upcoming exams
+- Take exams in a secure, monitored environment 
+- Submit answers safely and securely
 
-**Use your preferred IDE**
+### For Teachers
+- Create and manage exams
+- Monitor student activity during exams
+- Review and grade completed exams
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
+## Technology Stack
 
 This project is built with:
 
 - Vite
 - TypeScript
 - React
-- shadcn-ui
 - Tailwind CSS
+- shadcn-ui
 
-## How can I deploy this project?
+## Getting Started
 
-Simply open [Lovable](https://lovable.dev/projects/cb9b75c0-5cfa-4b85-bfde-87de11c35435) and click on Share -> Publish.
+### Prerequisites
 
-## Can I connect a custom domain to my Lovable project?
+- Node.js (latest LTS version recommended)
+- npm (comes with Node.js)
 
-Yes, you can!
+### Installation
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+1. Clone the repository:
+```sh
+git clone <YOUR_GIT_URL>
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+2. Navigate to the project directory:
+```sh
+cd exam-guardian-secure
+```
+
+3. Install dependencies:
+```sh
+npm install
+```
+
+4. Start the development server:
+```sh
+npm run dev
+```
+
+5. Open http://localhost:8080 in your browser to see the application.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
